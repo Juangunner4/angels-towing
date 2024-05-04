@@ -1,0 +1,30 @@
+.about-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.about {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.8rem;
+    color: white;
+    text-align: center;
+    z-index: 2;
+    text-shadow: 0 0 10px rgba(0, 191, 255, 0.7);
+    width: 90%;
+    padding: 0 5%;
+    white-space: normal;
+    transition: filter 0.3s ease;
+}
+
+.about:hover {
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+}

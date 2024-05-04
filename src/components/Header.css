@@ -77,5 +77,8 @@
     .call-us-button {
         display: none;
     }
+    .logo img {
+        display: none;
+    }
 }
 
