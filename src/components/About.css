@@ -7,24 +7,71 @@
     color: white;
     padding: 20px;
     text-align: center;
+    position: relative;
 }
 
 .about {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 1.8rem;
-    color: white;
-    text-align: center;
-    z-index: 2;
+    border: 2px solid transparent;
+    border-color: #000;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    transition: all 0.3s ease;
     text-shadow: 0 0 10px rgba(0, 191, 255, 0.7);
-    width: 90%;
-    padding: 0 5%;
-    white-space: normal;
-    transition: filter 0.3s ease;
+}
+.about:hover{
+    text-shadow: -1px -1px 0 #000,  
+    1px -1px 0 #000,
+   -1px  1px 0 #000,
+    1px  1px 0 #000;
 }
 
-.about:hover {
+.location {
+    border: 2px solid transparent;
+    border-color: #000;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    transition: all 0.3s ease;
+    text-shadow: 0 0 10px rgba(0, 191, 255, 0.7);
+}
+
+.location:hover{
+    text-shadow: -1px -1px 0 #000,  
+    1px -1px 0 #000,
+   -1px  1px 0 #000,
+    1px  1px 0 #000;
+}
+
+.about:hover,
+.location:hover {
+    background-color: #cccccca3;
+    transform: scale(1.05);
     filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+}
+
+@media (max-width: 600px) {
+
+    .location,
+    .about {
+        font-size: 1.5rem;
+        top: auto;
+        margin: 10px;
+        padding: 10px;
+        top: 30%;
+    }
+
+    .call-us-button-hero {
+        display: inline-block;
+        position: absolute; 
+        bottom: 20px; 
+        left: 50%; 
+        transform: translateX(-50%); 
+        z-index: 1000; 
+      }
+
+    .location iframe {
+        width: 95%; /* Adjust width to 80% of the container */
+        height: 200px; /* Set a fixed height to ensure visibility */
+      }
 }

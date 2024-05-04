@@ -6,8 +6,8 @@ function Footer() {
             <div className="footer-sections">
                 <div className="footer-column">
                     <h4>Location</h4>
-                    <p>123 Towing Lane</p>
-                    <p>City, State, Zip</p>
+                    <p>3030 S Main St</p>
+                    <p>Harrisonburg VA, 22801</p>
                 </div>
                 <div className="footer-column">
                     <h4>Service Area</h4>
