@@ -21,7 +21,7 @@ function About() {
           loading="lazy"
         ></iframe>
       </div>
-      <div className="phone-number"><a href="tel:+15402568095" className="call-us-button-hero">Call Us Now!</a></div>
+      <div className="phone-number"><a href="tel:+15402468095" className="call-us-button-hero">Call Us Now!</a></div>
     </div>
   );
 }

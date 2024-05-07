@@ -35,7 +35,7 @@ function Services() {
         <p>Battery jump-start and replacement services for vehicles with battery issues.</p>
       </div>
       <div className="phone-number">
-        <a href="tel:+15402568095" className="call-us-button-hero">Call Us Now!</a>
+        <a href="tel:+15402468095" className="call-us-button-hero">Call Us Now!</a>
       </div>
     </div>
   );
